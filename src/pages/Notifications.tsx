@@ -1,4 +1,4 @@
-import { Bell, AlertTriangle, Cloud, TrendingUp, Users } from 'lucide-react';
+import { AlertTriangle, Cloud, TrendingUp, Users } from 'lucide-react';
 
 const Notifications = () => {
   const notifications = [
