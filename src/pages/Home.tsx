@@ -2,16 +2,16 @@ import { Bell, MapPin, Users, Map as MapIcon, BookOpen, TrendingUp } from 'lucid
 
 const Home = () => {
   return (
-    <div className="min-h-full bg-gray-50">
+    <div className="min-h-full bg-gray-50 mt-16">
       {/* Header */}
-      <header className="bg-white px-4 py-4 border-b border-gray-200">
+      <header className="bg-white px-20 py-4 border-b border-gray-200">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-semibold">
               R
             </div>
             <div>
-              <h1 className="text-lg font-semibold text-gray-900">Good Morning, Ray 👋</h1>
+              <h1 className="text-lg font-semibold text-gray-900">Good Morning, Ray</h1>
               <div className="flex items-center gap-1 text-sm text-gray-600">
                 <MapPin size={14} />
                 <span>Tema, Accra</span>
